@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+intdivision=(a//b)
+print(intdivision)
+floatdivision=(a/b)
+print(floatdivision)
