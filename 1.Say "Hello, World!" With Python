@@ -1,3 +1,7 @@
 print('Say "Hello, World!" With Python')
 
 
+"""explanation
+The text inside the parentheses is a string, 
+allowing double quotes around Hello, World! without escaping, 
+since the string is enclosed in single quotes."""
