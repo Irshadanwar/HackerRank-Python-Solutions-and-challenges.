@@ -4,3 +4,17 @@ intdivision=(a//b)
 print(intdivision)
 floatdivision=(a/b)
 print(floatdivision)
+
+
+"""
+
+Division Operations:
+
+Integer Division (//):
+intdivision = (a // b) computes the quotient of a divided by b, discarding the remainder.
+print(intdivision) outputs the result.
+Float Division (/):
+floatdivision = (a / b) computes the quotient of a divided by b, retaining any decimal places.
+print(floatdivision) outputs the result.
+
+"""
