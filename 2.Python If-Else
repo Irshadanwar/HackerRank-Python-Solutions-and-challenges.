@@ -7,3 +7,23 @@ elif n % 2 == 0 and 6 <= n <= 20:
     print("Weird")
 else:
     print("Not Weird")
+
+
+"""
+Summary:
+
+Input: Reads an integer n from the user.
+Conditional Logic:
+If n is odd: prints "Weird".
+If n is even and between 2 and 5: prints "Not Weird".
+If n is even and between 6 and 20: prints "Weird".
+If n is even and greater than 20: prints "Not Weird".
+
+Key Concepts:
+
+input(): Gets user input.
+int(): Converts input to an integer.
+if, elif, else: Controls the flow based on conditions.
+% (modulo): Checks if a number is even or odd.
+Logical operators: Combine conditions for more complex checks.
+"""
