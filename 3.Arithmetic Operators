@@ -3,3 +3,14 @@ b = int(input())
 print(a + b)
 print(a - b)
 print(a * b)
+
+"""
+Topic Involved:
+Arithmetic Operations: Basic mathematical operations
+(addition, subtraction, multiplication) performed on integers.
+
+Addition (+): print(a + b) outputs the sum of a and b.
+Subtraction (-): print(a - b) outputs the difference of a and b.
+Multiplication (*): print(a * b) outputs the product of a and b.
+
+"""
