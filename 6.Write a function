@@ -5,3 +5,13 @@ def is_leap(year):
     elif(year % 4 == 0 and year % 100 != 0):
         leap = True
     return leap
+
+
+"""
+Explanation :
+
+The is_leap function checks if a year is a leap year:
+
+A year is a leap year if:
+   It is divisible by 4 and:
+       Not divisible by 100 or divisible by 400.
