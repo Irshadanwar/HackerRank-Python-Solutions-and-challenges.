@@ -1,3 +1,16 @@
 n = int(input())
 for i in range (n):
     print(i**2)
+
+
+"""
+Explanation :
+
+user inputs 5, the loop will execute as follows:
+
+For i = 0: print(0**2) → prints 0
+For i = 1: print(1**2) → prints 1
+For i = 2: print(2**2) → prints 4
+For i = 3: print(3**2) → prints 9
+For i = 4: print(4**2) → prints 16
+"""
