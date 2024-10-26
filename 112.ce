@@ -1,3 +1,0 @@
-#this file is for streaks 
-for i in range(5):
-print(i)
