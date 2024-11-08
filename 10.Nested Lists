@@ -6,3 +6,23 @@ if __name__ == '__main__':
         alist.append([name, score])
 second_highest = sorted(set([score for name, score in alist]))[1]
 print('\n'.join(sorted([name for name, score in alist if score == second_highest])))
+
+
+"""
+score = float(input())
+Reads the score of the student and converts it to a floating-point number.
+
+alist.append([name, score])
+Adds a pair [name, score] as a sublist to alist.
+
+second_highest = sorted(set([score for name, score in alist]))[1]
+List comprehension: [score for name, score in alist] extracts all the scores from alist.
+set(): Converts the list of scores into a set, which removes duplicate scores.
+sorted(): Sorts the unique scores in ascending order.
+[1]: Accesses the second element in the sorted list, which will be the second highest unique score.
+
+print('\n'.join(sorted([name for name, score in alist if score == second_highest])))
+List comprehension: [name for name, score in alist if score == second_highest] creates a list of names whose score is equal to the second_highest score.
+sorted(): Sorts the names alphabetically.
+'\n'.join(...): Joins the sorted names with a newline character (\n), so each name appears on a new line when printed.
+"""
