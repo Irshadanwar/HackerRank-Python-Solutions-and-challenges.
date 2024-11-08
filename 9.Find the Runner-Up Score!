@@ -5,3 +5,20 @@ if __name__ == '__main__':
     while a in arr:
         arr.remove(a)
     print(max(arr))
+
+
+
+"""
+arr = list(map(int, input().split()))
+Reads a space-separated string of integers, splits the string into individual parts, converts each part to an integer using map(int, ...), and then converts the result to a list (arr).
+
+a = max(arr)
+Finds the maximum value in the list arr and assigns it to the variable a.
+
+arr.remove(a)
+Removes the first occurrence of the maximum value a from the list arr.
+
+print(max(arr))
+After removing all occurrences of a, it finds the new maximum value (which is the second largest unique value) and prints it.
+
+"""
