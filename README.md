@@ -10,24 +10,36 @@ Welcome to the **ultimate HackerRank Python Solutions** repository! 🎉 Whether
 - **Continuous Updates:** This repository is a work in progress, constantly expanding with new challenges and solutions.  
 
 ---
-
 ## 💻 **Directory Structure:**  
 
 ```plaintext
 HackerRank Python Solutions/
-├── 1. Say "Hello, World!" With Python
-├── 2. Python If-Else
-├── 3. Arithmetic Operators
-├── 4. Python: Division
-├── 5. Loops
-├── 6. Write a function
-├── 7. Print Function
-├── 8. List Comprehensions
-├── ...
-└── README.md
+├── Basic Challenges/
+│   ├── 1. Say "Hello, World!" With Python.py
+│   ├── 2. Python If-Else.py
+│   ├── 3. Arithmetic Operators.py
+│   ├── 4. Python: Division.py
+│   └── 5. Loops.py
+├── Functions and Logic/
+│   ├── 6. Write a Function.py
+│   ├── 7. Print Function.py
+│   └── 8. List Comprehensions.py
+├── Strings and Text Processing/
+│   ├── 13. sWAP cASE.py
+│   ├── 14. String Split and Join.py
+│   ├── 15. What's Your Name?.py
+│   └── 17. Find a String.py
+├── Lists and Sets/
+│   ├── 10. Nested Lists.py
+│   ├── 12. Lists.py
+│   ├── 18. String Validators.py
+│   └── 20. Introduction to Sets.py
+├── Data Structures/
+│   ├── 9. Find the Runner-Up Score!.py
+│   ├── 19. Capitalize!.py
+│   └── 21. Set .union() Operation.py
+├── README.md
 ```
-
-- Each folder/file corresponds to a challenge and contains the Python solution and an explanation. 
 
 ---
 
