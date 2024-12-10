@@ -1,3 +1,6 @@
 def swap_case(s):
     a = s.swapcase()
     return a
+
+"""This function `swap_case(s)` takes a string `s` and returns a new string with all uppercase letters converted to lowercase and vice versa. 
+It uses the built-in `swapcase()` method, which efficiently handles the case conversion."""
