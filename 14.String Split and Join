@@ -1,18 +1,14 @@
 def split_and_join(line):
-
     # write your code here
-
     a = line.split(" ")
-
     b = "-".join(a)
-
     return(b)
 
-
 if __name__ == '__main__':
-
     line = input()
-
     result = split_and_join(line)
-
     print(result)
+
+
+"""The `split_and_join(line)` function splits a string by spaces and then joins the words with hyphens (`-`). 
+It takes an input string, processes it, and returns the modified string. For example, `"hello world"` becomes `"hello-world"`."""
