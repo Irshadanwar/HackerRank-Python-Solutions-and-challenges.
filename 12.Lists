@@ -17,3 +17,8 @@ if __name__ == '__main__':
             List.sort();
         else:
             List.reverse();
+
+
+"""This Python code performs various list operations based on user commands.
+It reads a set of commands (`insert`, `append`, `pop`, `print`, `remove`, `sort`, `reverse`) and modifies a list accordingly. 
+The list is printed after certain operations, and commands are processed using conditional statements."""
