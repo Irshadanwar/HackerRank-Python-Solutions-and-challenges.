@@ -9,3 +9,8 @@ if __name__ == '__main__':
     scores = student_marks[query_name]
     avg = sum(scores)/len(scores)
     print (f"{avg:.2f}")
+
+
+"""This Python code stores student names and their scores in a dictionary, 
+calculates the average score for a queried student, and prints it with two decimal precision. 
+The key concepts are using a dictionary for storing data, calculating averages, and formatting the output."""
